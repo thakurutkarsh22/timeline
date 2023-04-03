@@ -1,0 +1,63 @@
+.dialog-box {
+  width: 800px;
+  height: 470px;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer-icon {
+  width: 100px;
+  height: 100px;
+  background-image: url("timer-icon.png");
+  background-size: cover;
+  animation-name: timer;
+  animation-duration: 30s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes timer {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.heading {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  line-height: 1.2;
+
+  max-width: 276px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.25px;
+}
+
+.subheading {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: #191919;
+  opacity: 0.6;
+}

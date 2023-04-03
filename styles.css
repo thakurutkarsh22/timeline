@@ -1,0 +1,214 @@
+/* body {
+  line-height: 1.3em;
+} */
+
+.refund {
+  width: 456px;
+  height: 57px;
+  /* left: 613px;
+  top: 680px; */
+  margin: auto;
+
+  background: #ffedeb;
+  border-radius: 6px;
+}
+
+.history-tl-container {
+  font-family: "Roboto", sans-serif;
+  /* width: 50%; */
+  /* margin: auto; */
+  display: block;
+  position: relative;
+}
+.history-tl-container ul.tl {
+  margin: 20px 0;
+  padding: 0;
+  display: inline-block;
+}
+
+/* ul.tl */
+.history-tl-container .check li {
+  list-style: none;
+  margin: auto;
+  /* margin-left: 200px; */
+  min-height: 50px;
+  /*background: rgba(255,255,0,0.1);*/
+  border-left: 1px solid #08ce87;
+  padding: 0 0 50px 30px;
+  position: relative;
+}
+
+.history-tl-container .cross li {
+  list-style: none;
+  margin: auto;
+  /* margin-left: 200px; */
+  min-height: 50px;
+  /*background: rgba(255,255,0,0.1);*/
+  border-left: 1px solid #ffebf2;
+  padding: 0 0 50px 30px;
+  position: relative;
+}
+
+/* ul li:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  z-index: 100;
+  top: 0;
+  width: 3px;
+  height: 50%; 
+  background: #555;
+} */
+
+.history-tl-container .dot li {
+  list-style: none;
+  margin: auto;
+  /* margin-left: 200px; */
+  min-height: 50px;
+  /* height: 20px; */
+  /*background: rgba(255,255,0,0.1);*/
+  border-left: 1px solid #ffebf2;
+  padding: 0 0 50px 30px;
+  position: relative;
+  /* z-index: -1; */
+}
+
+.history-tl-container .dim li {
+  list-style: none;
+  margin: auto;
+  /* margin-left: 200px; */
+  min-height: 50px;
+  /* height: 20px; */
+  /*background: rgba(255,255,0,0.1);*/
+  border-left: 1px solid #ffebf2;
+  padding: 0 0 50px 30px;
+  position: relative;
+  /* z-index: -1; */
+}
+
+.history-tl-container ul.tl li:last-child {
+  border-left: 0;
+}
+
+/* .history-tl-container .check li::before {
+  position: absolute;
+  left: -18px;
+  top: -5px;
+  content: " ";
+  border: 8px solid white;
+  border-radius: 500%;
+  background: #08ce87;
+  background-image: url("./check.svg");
+  background-repeat: no-repeat;
+  background-position-x: 5px;
+  background-position-y: 6px;
+  height: 20px;
+  width: 20px;
+} */
+
+.history-tl-container .cross li::before {
+  position: absolute;
+  left: -18px;
+  top: -5px;
+  content: " ";
+  border: 8px solid white;
+  border-radius: 500%;
+  background: #ff5942;
+  background-image: url("./cross.svg");
+  background-repeat: no-repeat;
+  background-position-x: 5.5px;
+  background-position-y: 5.5px;
+  height: 20px;
+  width: 20px;
+}
+
+.history-tl-container .dot li::before {
+  position: absolute;
+  left: -18px;
+  top: -5px;
+  content: " ";
+  border: 8px solid white;
+  border-radius: 500%;
+  background: white;
+  /* opacity: 0.1; */
+  background-image: url("./dot.svg");
+  background-repeat: no-repeat;
+  /* background-position-x: 5.5px;
+  background-position-y: 5.5px; */
+  height: 20px;
+  width: 20px;
+}
+
+.history-tl-container .dim li::before {
+  position: absolute;
+  left: -18px;
+  top: -5px;
+  content: " ";
+  border: 8px solid white;
+  border-radius: 500%;
+  background: white;
+  /* opacity: 0.1; */
+  background-image: url("./dim.svg");
+  background-repeat: no-repeat;
+  /* background-position-x: 5.5px;
+  background-position-y: 5.5px; */
+  height: 20px;
+  width: 20px;
+}
+
+ul.tl li .item-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 22px;
+}
+
+ul.tl li .item-detail {
+  color: black;
+  opacity: 0.4;
+  font-size: 12px;
+}
+
+.container {
+  /* position: absolute; */
+  width: 456px;
+  height: 57px;
+  left: 614px;
+  top: 667px;
+  background: #ffedeb;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+}
+
+.info-icon {
+  width: 30px;
+  height: 32px;
+  background-image: url(info.svg);
+  /* background-size: cover; */
+  margin-left: 9px;
+  margin-right: 5px;
+  background-repeat: no-repeat;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  /* or 150% */
+
+  color: #000000;
+}
+
+/* Center the icon and text vertically */
+.container > * {
+  display: flex;
+  align-items: center;
+}

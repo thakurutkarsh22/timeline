@@ -1,0 +1,27 @@
+.container {
+  width: 94px;
+  height: 94px;
+  background-color: rgba(247, 199, 68, 0.2);
+  /* opacity: 0.2; */
+  border-radius: 50%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-child {
+  width: 70px;
+  height: 70px;
+  background-color: rgba(247, 199, 68, 0.2);
+  border-radius: 50%;
+  z-index: 2;
+  /* opacity: 1; */
+}
+
+.container-icon {
+  width: 23px;
+  height: 33px;
+  background-image: url("hourglass.svg");
+  background-size: cover;
+}
